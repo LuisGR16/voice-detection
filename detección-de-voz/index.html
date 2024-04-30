@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detección de voz</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="text-center">Detección de voz</h1>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="mb-0">Comandos</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Enciende/apaga la luz de la recámara</li>
+                            <li class="list-group-item">Enciende/apaga la luz de la sala</li>
+                            <li class="list-group-item">Enciende/apaga las luces del jardín</li>
+                            <li class="list-group-item">Enciende/apaga el ventilador</li>
+                            <li class="list-group-item">Abre/cierra las cortinas</li>
+                            <li class="list-group-item">Activa/desactiva la alarma de la casa</li>
+                            <li class="list-group-item">Enciende/apaga las cámaras de seguridad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h2 class="mb-0">Orden reconocida</h2>
+                    </div>
+                    <div class="card-body">
+                        <span id="txt-order">Esperando orden...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
